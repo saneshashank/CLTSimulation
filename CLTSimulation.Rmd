@@ -1,0 +1,39 @@
+---
+title: "Central Limit Theorem (CLT) - Simulation"
+author: "Shashank Sane"
+date: "June 17, 2017"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Central Limit Theorem Simulation
+The CLT Simulation app is an educational tool that provides user to experience firsthand how the Central Limit Theorem works. The user
+can study the Central Limit Theorem with respect two distributions - the Exponential Distribution and Binomial Distribution.
+
+![CLT Simulation App.](E:\DataScience\gitrepos\ShinyTestApp\CLTSimulation\CLT1.png)
+
+##
+The Central Limit Theorem Simulation app consists of the following three tabs:
+
+- What is Central Limit Theorem: This tab explains the Central Limit Theorem in brief and also explains how to use the application.
+- Simulation: This tab provides user the facility to simulate central limit theorem using for different sample and simulation sizes.The user can see the distribution of means of samples in simulation.
+- How does actual distribution look like?: This tab shows the user the actual distribution of data.
+
+The app can be accessed at: https://saneshashank.shinyapps.io/cltsimulation/
+
+## 
+Shown below is the Simulation tab, change the controls to change visualization.
+
+
+![Simulation tab](E:\DataScience\gitrepos\ShinyTestApp\CLTSimulation\CLT2.png)
+
+##
+Finally the - How does actual distribution look like ? tab shows the actual sample distribution.
+
+![](E:\DataScience\gitrepos\ShinyTestApp\CLTSimulation\CLT3.png)
+
+Thank You and enjoy the App!!
+
