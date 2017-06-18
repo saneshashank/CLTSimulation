@@ -11,29 +11,32 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Central Limit Theorem Simulation
 The CLT Simulation app is an educational tool that provides user to experience firsthand how the Central Limit Theorem works. The user
-can study the Central Limit Theorem with respect two distributions - the Exponential Distribution and Binomial Distribution.
+can study the Central Limit Theorem with respect two distributions - the Exponential Distribution and Binomial Distribution.Below is the snapshot of the app:
 
 ![CLT Simulation App.](E:\DataScience\gitrepos\CLTSimulation\CLT-1.png)
 
-##
+## 
 The Central Limit Theorem Simulation app consists of the following three tabs:
 
 - What is Central Limit Theorem: This tab explains the Central Limit Theorem in brief and also explains how to use the application.
-- Simulation: This tab provides user the facility to simulate central limit theorem using for different sample and simulation sizes.The user can see the distribution of means of samples in simulation.
-- How does actual distribution look like?: This tab shows the user the actual distribution of data.
+- Simulation: This tab provides user the facility to simulate central limit theorem for different sample and simulation sizes.The user can see the distribution of sample means in simulation and how it approximates to normal distribution as sample and simulation size increases.
+- How does actual distribution look like?: This tab shows the user the actual distribution of sample data.
 
 The app can be accessed at: https://saneshashank.shinyapps.io/cltsimulation/
 
+The source code for this application can be found at: https://github.com/saneshashank/CLTSimulation
+
 ## 
-Shown below is the Simulation tab, change the controls to change visualization.
+Shown below is the Simulation tab, change the controls (marked in red box) to change visualization.
 
 
 ![Simulation tab](E:\DataScience\gitrepos\CLTSimulation\CLT-2.png)
 
 ##
-Finally the - How does actual distribution look like ? - tab shows the actual sample distribution.
+Finally the tab - How does actual distribution look like ? - shows the actual sample distribution.
 
 ![](E:\DataScience\gitrepos\CLTSimulation\CLT-3.png)
+
 
 Thank You and enjoy the App!!
 
